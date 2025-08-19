@@ -4,7 +4,9 @@
   "description": "A Genkit Typescript chatbot with RAG database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx --env-file .env ./index.ts",
+    "genkit": "genkit start -- npm start"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,15 @@
   "homepage": "https://github.com/singfoom/genkit-astra-db-rag#readme",
   "dependencies": {
     "@genkit-ai/googleai": "^1.16.1",
+    "@mozilla/readability": "^0.6.0",
     "dotenv": "^17.2.1",
     "genkit": "^1.16.1",
-    "genkitx-astra-db": "^0.3.0"
+    "genkitx-astra-db": "^0.3.0",
+    "jsdom": "^26.1.0",
+    "llm-chunk": "^0.0.1"
+  },
+  "devDependencies": {
+    "genkit-cli": "^1.16.1",
+    "tsx": "^4.20.4"
   }
 }
