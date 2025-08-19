@@ -1,0 +1,26 @@
+{
+  "name": "genkit-astra-db-rag",
+  "version": "1.0.0",
+  "description": "A Genkit Typescript chatbot with RAG database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singfoom/genkit-astra-db-rag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/singfoom/genkit-astra-db-rag/issues"
+  },
+  "homepage": "https://github.com/singfoom/genkit-astra-db-rag#readme",
+  "dependencies": {
+    "@genkit-ai/googleai": "^1.16.1",
+    "genkit": "^1.16.1",
+    "genkitx-astra-db": "^0.3.0"
+  }
+}
